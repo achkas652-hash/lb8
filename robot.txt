@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /directives.html
 Disallow: / characters.html
 Allow: / index.html
-Sitemap: https://achkas652-hash.github.io/lb8/-/sitemap.xml
+Sitemap: https://achkas652-hash.github.io/-/sitemap.xml
