@@ -7,17 +7,6 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
-  <url>
-    <loc>https://akura-e.github.io/-/directives.html</loc>
-    <lastmod>2025-10-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    </url>
-   <url>
-    <loc>https://akura-e.github.io/-/characters.html</loc>
-    <lastmod>2025-10-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    </url>
+ 
 
 </urlset>
