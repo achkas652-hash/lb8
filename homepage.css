@@ -1,0 +1,205 @@
+body {
+  font-family: 'Oswald', sans-serif;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* заставка */
+.gl-photo {
+ height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: stretch; /* растягивает .gl-text на всю высоту */
+  justify-content: flex-start; /* ← выравнивание .gl-text по левому краю */
+  color: white;
+  position: relative;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.gl-text {
+  position: relative;
+  width: 50%;
+  height: 100vh;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* один текст вверх, другой вниз */
+  align-items: flex-start; /* ← ВОТ ЭТО: выравнивание по левому краю */
+  text-align: left;        /* ← и текст внутри по левому краю */
+}
+
+.sorry-text {
+  font-size: 150px;
+  font-weight: 700;
+  line-height: 1.1;
+  color: rgb(52, 11, 11);
+  letter-spacing: -7px;
+  margin-top: 250px;
+  white-space: nowrap;
+}
+
+.clo-text{
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  color: rgb(87, 37, 37);
+  margin-bottom: 280px;
+}
+
+/* Основной блок ниже */
+.main-content {
+  padding: 60px 20px;
+  background: #f2f2f2;
+  color: #333;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 столбца */
+  gap: 10px;
+  padding: 20px 500px;
+  background-color: #fff;
+  justify-items: center;
+}
+
+
+.product-item {
+  width: 320px;
+  height: 320px;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f7f7f7;
+}
+
+.product-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.label {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  padding: 10px 20px;
+  font-weight: 600;
+  border: 1px solid white;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.label:hover {
+  background: rgba(255, 255, 255, 0.9);
+  color: black;
+}
+
+
+.footer {
+  background-color: #f2f2f2;
+  color: rgb(52, 11, 11);
+  font-size: 40px;
+  padding: 60px 40px;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer-column {
+  margin-right: 60px;
+}
+
+.footer-column h3 {
+  font-size: 58px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  color: rgb(52, 11, 11);
+  font-size: 40px;
+  text-decoration: none;
+  font-weight: 200;
+}
+
+.footer-column ul li a:hover {
+  text-decoration: underline;
+}
+
+.catalog-button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.catalog-button {
+  background-color: rgb(52, 11, 11);
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 40px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.catalog-button:hover {
+  background-color: #333;
+}
+
+.top-bar {
+  background-color: #f2f2f2;
+  color: rgb(52, 11, 11);
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 10px;
+}
+
+.back-home {
+  padding: 15px 30px;
+  text-align: center;
+}
+
+.back-home a {
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  background-color: rgb(52, 11, 11);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 0px;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+}
+
+.back-home a:hover {
+  background-color: #333;
+}
