@@ -7,12 +7,14 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+
   <url>
     <loc>https://achkas652-hash.github.io/lb8/catalog.html</loc>
     <lastmod>2025-10-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
+
   <url>
     <loc>https://achkas652-hash.github.io/lb8/contact.html</loc>
     <lastmod>2025-10-27</lastmod>
@@ -21,3 +23,4 @@
   </url>
 
 </urlset>
+
